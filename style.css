@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+body {
+    background-color: #212121;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.guild {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    padding: 10px;
+    min-width: 250px;
+    max-width: 310px;
+    min-height: 250px;
+    max-height: 300px;
+    width: 100%;
+    background-color: #fff;
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 3px 3px #404040;
+}
+
+.guild *{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+dl { 
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: nowrap; 
+    justify-content: flex-start; 
+    margin: 1em 0px; padding: 0; 
+    list-style: none; 
+}
+
+dt {
+    font-size: 30px;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    color: #212121;
+    -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+            transform: skew(-5deg, -5deg) rotate(5deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    text-shadow: 1px 1px #0d0d0d,
+                 2px 2px #1a1a1a,
+                 3px 3px #262626,
+                 4px 4px #333,
+                 5px 5px #404040,
+                 11px 11px 15px rgba(0,0,0,0.5);
+}
+
+dt, dd { 
+    display: flex; 
+    line-height: 1.5; 
+    position: relative; 
+}
+
+.icons img {
+    height: 30px;
+    width: 30px;
+}
+
+.icons a:hover {
+    border-style: groove;
+    border-width: 1px;
+    border-color: #404040;
+}
+
+.icons a {
+    text-decoration: none;
+}
