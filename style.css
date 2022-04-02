@@ -26,7 +26,7 @@ body {
     color: #212121;
     text-align: center;
     font-size: 16px;
-    box-shadow: 3px 3px #404040;
+    box-shadow: 3px 3px #f2395a;
 }
 
 .guild *{
@@ -47,17 +47,17 @@ dt {
     font-size: 30px;
     font-family: "Oswald";
     text-transform: uppercase;
-    color: #212121;
+    color: #f2395a;
     -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
             transform: skew(-5deg, -5deg) rotate(5deg);
     -webkit-transform-origin: center center;
             transform-origin: center center;
-    text-shadow: 1px 1px #0d0d0d,
-                 2px 2px #1a1a1a,
-                 3px 3px #262626,
-                 4px 4px #333,
-                 5px 5px #404040,
-                 11px 11px 15px rgba(0,0,0,0.5);
+     text-shadow: 1px 1px #d10e31,
+                  2px 2px #d10e31,
+                  3px 3px #d10e31,
+                  4px 4px #d10e31,
+                  5px 5px #d10e31,
+                  11px 11px 15px rgba(0,0,0,0.5);
 }
 
 dt, dd { 
