@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 
 body {
-    background-color: #212121;
+    background-color: #fff;
     height: 95vh;
     display: flex;
     align-items: center;
@@ -27,6 +27,9 @@ body {
     text-align: center;
     font-size: 16px;
     box-shadow: 3px 3px #f2395a;
+    border-style: groove;
+    border-width: 1px;
+    border-color: #f2395a;
 }
 
 .guild *{
